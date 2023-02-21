@@ -7,11 +7,11 @@ on:
 
 jobs:
   hello_world:
-    runs-on: ubuntu-18.04
+    runs-on: self-hosted
     steps:
       - name: Echo the message
         run: |
-          echo "Hola Chaval!"
+          echo "Hola Chaval3!"
       - name: Dime la fecha
         run: date
       - run: ls -l
